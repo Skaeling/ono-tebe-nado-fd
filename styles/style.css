@@ -1,1 +1,170 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+  background-color: white;
+
+}
+
+.menu {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+
+.menu-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+
+}
+.header__links-list-item_no-bullit {
+list-style: none;
+}
+
+.header-logo {
+display: block;
+
+}
+
+.header-logo-black {
+  display: block;
+  width: 124px;
+  /* height: 94px; */
+}
+
+.address {
+display: flex;
+flex-direction: column;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+max-width: 239px;
+}
+
+.header__address {
+justify-self: end;
+
+}
+
+.cover {
+  position: relative;
+  padding: 12px 0 180px;
+  min-height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.overlay {
+position: absolute;
+inset: 0 0;
+height: 610px;
+z-index: 0;
+background-color: rgb(000 000 000/ 0.6);
+}
+
+.cover-title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+  ". . ."
+  "left . ."
+  ". center ."
+  ". . right";
+
+  position: relative;
+  color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+}
+
+.cover_title_left {
+/* place-self: start center; */
+/* place-content: ; */
+grid-area: left;
+justify-self: end;
+/* padding-left: 50px; */
+
+}
+
+.cover_title_center {
+/* place-self: center center; */
+/* place-content: center; */
+grid-area: center;
+}
+
+.cover_title_right {
+/* place-self: end end; */
+grid-area: right;
+}
+
+
+.description {
+  position: relative;
+  /* padding-left: 50px; */
+color: white;
+ display: flex;
+ justify-content: space-between;
+ font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+}
+
+
+.button {
+  outline: white;
+}
+
+.lots {
+  padding: auto 24px;
+}
+
+.lots-cards {
+  padding: 74px 0 0 53;
+}
+
+.about {
+  padding: 120px 24px 180px
+}
+
+.round-logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  place-items: center center;
+}
+
+.logo-white{
+  width: 136px;
+  height: 102px;
+}
+
+/*
+FFFFFF
+000000
+BCK Color overlay 000000 opacity 60% */
+
