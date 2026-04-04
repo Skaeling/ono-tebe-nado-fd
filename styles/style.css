@@ -94,9 +94,11 @@
 
 .cover__title_right {
   display: block;
-  margin-top: 18px;
+  margin-top: 17px;
   text-align: right;
-  margin-right: 0.2em;
+  margin-right: -0.26em;
+  padding-right: 46px;
+  letter-spacing: 30px;
 }
 
 .cover__description {
